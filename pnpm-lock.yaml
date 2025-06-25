@@ -41,7 +41,7 @@ importers:
         version: 30.0.2(@types/node@24.0.4)(node-notifier@8.0.2)(ts-node@10.9.2(@types/node@24.0.4)(typescript@5.8.3))
       prettier:
         specifier: ^3.5.3
-        version: 3.6.0
+        version: 3.6.1
       reflect-metadata:
         specifier: ^0.2.2
         version: 0.2.2
@@ -2065,8 +2065,8 @@ packages:
   pkg-types@2.1.0:
     resolution: {integrity: sha512-wmJwA+8ihJixSoHKxZJRBQG1oY8Yr9pGLzRmSsNms0iNWyHHAlZCa7mmKiFR10YPZuz/2k169JiS/inOjBCZ2A==}
 
-  prettier@3.6.0:
-    resolution: {integrity: sha512-ujSB9uXHJKzM/2GBuE0hBOUgC77CN3Bnpqa+g80bkv3T3A93wL/xlzDATHhnhkzifz/UE2SNOvmbTz5hSkDlHw==}
+  prettier@3.6.1:
+    resolution: {integrity: sha512-5xGWRa90Sp2+x1dQtNpIpeOQpTDBs9cZDmA/qs2vDNN2i18PdapqY7CmBeyLlMuGqXJRIOPaCaVZTLNQRWUH/A==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -4802,7 +4802,7 @@ snapshots:
       exsolve: 1.0.6
       pathe: 2.0.3
 
-  prettier@3.6.0: {}
+  prettier@3.6.1: {}
 
   pretty-format@30.0.2:
     dependencies:
