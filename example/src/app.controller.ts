@@ -1,5 +1,5 @@
+import { SwaggerDocumentation } from '@globalart/nest-swagger';
 import { Controller, Get } from '@nestjs/common';
-import { SwaggerDocumentation } from '../../dist';
 import { AppService } from './app.service';
 
 @Controller()
@@ -10,7 +10,7 @@ export class AppController {
     endpointDescription: 'test',
     endpointSummary: 'test',
   })
-  @Get()
+  @Get('hello')
   getHello(): string {
     return this.appService.getHello();
   }
